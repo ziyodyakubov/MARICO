@@ -5,7 +5,7 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +13,7 @@
 }
 
 .container {
-    max-width: 1360px !important;
+    max-width: 1640px !important;
     margin: 0 auto !important;
 }
 
