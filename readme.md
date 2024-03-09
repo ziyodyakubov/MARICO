@@ -4,5 +4,5 @@
 
 - ASSETS - [images,fonts]
 - IMAGES - [ong-jpg,svg]
-- FONTS - Local
+- FONTS - Global
 - CONTAINER - 1640px
