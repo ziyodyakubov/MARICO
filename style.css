@@ -18,6 +18,11 @@
     margin: 0 auto !important;
 }
 
+.container-2 {
+    max-width: 1900px !important;
+    margin: 0 auto !important;
+}
+
 body {
     background: #000;
 }
