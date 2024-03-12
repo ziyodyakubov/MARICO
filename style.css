@@ -23,6 +23,571 @@
     margin: 0 auto !important;
 }
 
+.menu-btn {
+    display: none;
+}
+
+@media only screen and (max-width:640px) {
+    .container {
+        max-width: 640px !important;
+        margin: 0 auto !important;
+        padding: 0 20px !important;
+    }
+
+    .mainlogo {
+        img {
+            width: 40px;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+    }
+
+    .uljon li {
+        display: none;
+    }
+
+    .buttons-wrap {
+        display: none !important;
+    }
+
+    .menu-btn {
+        display: flex !important;
+    }
+
+    .logBtn {
+        font-size: 18px;
+    }
+
+    .signupBtn {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    #section-1 {
+        margin-top: 40px;
+        margin-bottom: 80px;
+
+        .own {
+            font-size: 40px;
+            margin-bottom: -30px;
+        }
+
+        .beatufiy {
+            width: 430px;
+            margin-bottom: 20px;
+        }
+
+        .turn-wrap {
+            margin-bottom: 40px;
+
+            .turn {
+                font-size: 20px;
+                width: 400px;
+            }
+        }
+
+        .btnwrap23 {
+            gap: 10px;
+
+            .started {
+                font-size: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                width: 170px;
+                height: 50px;
+            }
+
+            .demobtn {
+                font-size: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+                width: 170px;
+                height: 50px;
+            }
+        }
+
+        .creatorslove {
+            img {
+                width: 20px;
+            }
+
+            p {
+                font-size: 16px;
+
+                span {
+                    font-weight: 600;
+                }
+
+            }
+        }
+
+        .creatorslove-title {
+            .creatorslove-title-h3 {
+                font-size: 25px;
+                margin-bottom: 30px;
+            }
+
+            .season-wrapper {
+                gap: 20px;
+
+                .season-title {
+
+                    .season-title-wrap {
+                        img {
+                            width: 20px;
+                        }
+
+                        h3 {
+                            font-size: 13px;
+                        }
+                    }
+
+                    .season-title-p {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    #section-2 {
+        .section-2_wrapper {
+
+            .step-wrapper {
+                margin-bottom: 42px;
+
+
+                .step-1 {
+                    font-size: 16px;
+                }
+
+                .connect {
+                    margin-top: 20px;
+                    font-size: 28px;
+                }
+
+                .bring {
+                    margin-top: 5px;
+                    font-size: 12px;
+                    width: 400px;
+                    padding-bottom: 25px;
+                }
+
+                .availableBtn {
+                    font-size: 14px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .homepage {
+                flex-direction: column;
+                gap: 20px;
+                justify-content: center;
+
+                .homepage-1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+
+                    .homepage-h4 {
+                        font-size: 19px;
+                    }
+
+                    .homepage-h2 {
+                        padding-top: 30px;
+                        font-size: 45px;
+                    }
+
+                    .homepage-parent {
+                        text-align: center;
+
+                        h2 {
+                            font-size: 45px;
+                        }
+                    }
+
+                    .homapage-parent-2 {
+                        gap: 10px;
+                        margin-bottom: 12px;
+
+                        h4 {
+                            padding-left: 12px;
+                            padding-top: 3px;
+                            font-size: 12px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .homepage-parent-3 {
+                        gap: 10px;
+                        margin-bottom: 40px;
+
+                        h4 {
+                            padding-left: 12px;
+                            padding-top: 3px;
+                            font-size: 12px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .homepage-parent-4 {
+                        gap: 10px;
+
+                        button {
+                            font-size: 14px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            width: 170px;
+                            height: 50px;
+                        }
+                    }
+                }
+
+                .homepage-2 {
+                    left: -10px;
+
+                    .chiziq {
+                        left: 140px;
+                        width: 200px;
+                        height: 176px;
+                        bottom: -50px;
+                    }
+                }
+            }
+        }
+    }
+
+    #section-3 {
+        .section-3_wrapper {
+            .step-wrapper {
+                margin-bottom: 42px;
+
+
+                .step-1 {
+                    font-size: 16px;
+                }
+
+                .connect {
+                    margin-top: 20px;
+                    font-size: 28px;
+                }
+
+                .bring {
+                    margin-top: 5px;
+                    font-size: 12px;
+                    width: 400px;
+                    padding-bottom: 25px;
+                }
+
+                .availableBtn {
+                    font-size: 14px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .onelink-wraperr {
+                flex-direction: column;
+                gap: 30px;
+
+                .onlink-1 {
+                    max-width: 430px;
+                    max-height: 415px;
+
+                    h4 {
+                        font-size: 21px;
+                        margin-bottom: 20px;
+                    }
+
+                    .create-wrap {
+                        h3 {
+                            font-size: 46px;
+                        }
+
+                        .yoge {
+                            bottom: 10px;
+                        }
+                    }
+
+                    img {
+                        left: 60px;
+                    }
+                }
+
+                .onlink-2 {
+                    max-width: 430px;
+                    max-height: 415px;
+
+                    h4 {
+                        font-size: 21px;
+                    }
+
+                    .nimadir {
+
+                        h3 {
+                            font-size: 40px;
+                        }
+                    }
+
+
+                }
+
+            }
+        }
+
+        .onlink-btn {
+            font-size: 14px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 250px;
+            height: 60px;
+        }
+    }
+
+    #section-4 {
+        margin-bottom: 200px;
+
+        .section-4_wrapper {
+            .step-wrapper {
+                margin-bottom: 42px;
+
+
+                .step-1 {
+                    font-size: 16px;
+                }
+
+                .connect {
+                    margin-top: 20px;
+                    font-size: 28px;
+                }
+
+                .bring {
+                    margin-top: 5px;
+                    font-size: 12px;
+                    width: 400px;
+                    padding-bottom: 25px;
+                }
+
+                .availableBtn {
+                    font-size: 14px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    width: 200px;
+                    height: 50px;
+                }
+            }
+
+            .homepage {
+                flex-direction: column;
+                gap: 20px;
+                justify-content: center;
+
+                .homepage-1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+
+                    .homepage-h4 {
+                        font-size: 19px;
+                    }
+
+                    .homepage-h2 {
+                        padding-top: 30px;
+                        font-size: 45px;
+                    }
+
+                    .homepage-parent {
+                        text-align: center;
+
+                        h2 {
+                            font-size: 45px;
+                        }
+                    }
+
+                    .homapage-parent-2 {
+                        gap: 10px;
+                        margin-bottom: 12px;
+
+                        h4 {
+                            padding-left: 12px;
+                            padding-top: 3px;
+                            font-size: 12px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .homepage-parent-3 {
+                        gap: 10px;
+                        margin-bottom: 40px;
+
+                        h4 {
+                            padding-left: 12px;
+                            padding-top: 3px;
+                            font-size: 12px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+
+                    .homepage-parent-4 {
+                        gap: 10px;
+
+                        button {
+                            font-size: 14px;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                            width: 170px;
+                            height: 50px;
+                        }
+                    }
+                }
+
+                .homepage-2 {
+                    left: -10px;
+
+                    .chiziq {
+                        left: 140px;
+                        width: 200px;
+                        height: 176px;
+                        bottom: -50px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    #section-5 {
+        margin-bottom: 40px;
+
+        .ana {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    }
+
+    #section-6 {
+        h2 {
+            display: none;
+        }
+    }
+
+    footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .footer-wrapper {
+            margin-bottom: 110px;
+        }
+
+        .footer-logo {
+            width: 90px;
+        }
+
+        .footer-h2 {
+            font-size: 42px;
+        }
+
+        .footer-h4 {
+            margin-top: 10px;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .footer-btn {
+            font-size: 14px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 220px;
+            height: 60px;
+        }
+
+        .creatorslove {
+            img {
+                width: 20px;
+            }
+
+            p {
+                font-size: 16px;
+
+                span {
+                    font-weight: 600;
+                }
+
+            }
+        }
+
+        .last-footer {
+            .last-footer-1 {
+                text-align: center;
+
+                .logo {
+                    text-align: center;
+                    gap: 10px;
+
+                    img {
+                        width: 34px;
+                    }
+
+                    h3 {
+                        font-size: 25px;
+                    }
+                }
+
+                .footer-p-2 {
+                    font-size: 18px;
+                }
+            }
+
+            .last-footer-2 {
+                gap: 20px;
+
+                li {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
 body {
     background: #000;
 }
